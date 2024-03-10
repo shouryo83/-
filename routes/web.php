@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', function() {
+    return view('stages.start');
+});
+
 Route::get('/colors', [TesttubeController::class, 'index']);
 
-Route::get('/', [TesttubeController::class, 'index']);
+Route::get('/stage1', [TesttubeController::class, 'index']);
+
+Route::get('/clear', function() {
+    return view('stages.clear');
+});
