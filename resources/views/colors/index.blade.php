@@ -7,6 +7,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
+        <div style="
+            text-align: center;
+        ">
+            <h1>１st stage</h1>
+        </div>
         <h1>円</h1>
         @foreach ($colors as $color)
             <div style="
